@@ -1,0 +1,38 @@
+{
+  "name": "shopsimulation",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=development && set DEBUG=app:main && nodemon index"
+  },
+  "author": "farshad bagheri",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "auto-bind": "^5.0.1",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.40.0",
+    "config": "^3.3.9",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-fileupload": "^1.4.0",
+    "express-validator": "^7.0.1",
+    "jshint": "^2.13.6",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.0.5",
+    "mongoose-aggregate-paginate-v2": "^1.0.6",
+    "mongoose-timestamp": "^0.6.0",
+    "winston": "^3.8.2"
+  }
+}
