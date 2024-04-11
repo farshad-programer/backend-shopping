@@ -17,4 +17,12 @@ router.post(
 );
 router.get("/refreshToken", controller.handleRefreshToken);
 router.get("/logout", controller.logout);
+// --------------product-----------------
+router.get("/product", controller.getProduct);
+router.get("/product/:id", controller.findByIdProduct);
+router.get("/findProducts", controller.queryProduct);
+// --------------category-----------------
+router.get("/category", controller.categoryList);
+router.get("/category/:id", controller.findByIdCategoryList);
+
 export default router;

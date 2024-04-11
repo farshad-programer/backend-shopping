@@ -21,13 +21,14 @@ export default new (class extends controller {
 
     await user.save();
 
-    this.response({
+    return this.response({
       res,
       message: "the user successfuly registered",
       data: _.pick(user, ["_id", "name", "email"]),
     });
   }
 
+  // -------------login-----------
   async login(req, res) {
     const cookies = req.cookies;
     const user = await this.User.findOne({ email: req.body.email }).exec();
@@ -93,7 +94,7 @@ export default new (class extends controller {
     });
     const data = res.json({ roles, accessToken });
     // ---------------------------------------------
-    this.response({
+    return this.response({
       data,
       message: "successfuly logged in",
     });
@@ -124,17 +125,16 @@ export default new (class extends controller {
     user.refreshToken = newRefreshTokenArray;
     await user.save();
     res.clearCookie("jwt", { httpOnly: true, sameSite: "None", secure: true });
-    this.response({ res, code: 204, message: "successfuly logged out" });
+    return this.response({ res, code: 204, message: "successfuly logged out" });
   }
 
-
-
   // ---------------------------handleRefreshToken-------------
-  
+
   async handleRefreshToken(req, res) {
     const cookies = req.cookies;
 
-    if (!cookies?.jwt) return res.sendStatus(401).json({ message: 'Unauthorized' });
+    if (!cookies?.jwt)
+      return res.sendStatus(401).json({ message: "Unauthorized" });
 
     const refreshToken = cookies.jwt;
     res.clearCookie("jwt", { httpOnly: true, sameSite: "None", secure: true });
@@ -156,7 +156,7 @@ export default new (class extends controller {
           await hackedUser.save();
         }
       );
-      return res.sendStatus(403).json({ message: 'Forbidden' });
+      return res.sendStatus(403).json({ message: "Forbidden" });
     }
 
     const newRefreshTokenArray = foundUser.refreshToken.filter(
@@ -179,7 +179,6 @@ export default new (class extends controller {
         const accessToken = jwt.sign(
           {
             userInfo: { email: decoded.email, roles },
-           
           },
           process.env.ACCESS_TOKEN_SECRET,
           { expiresIn: "6s" }
@@ -204,5 +203,164 @@ export default new (class extends controller {
         res.json({ roles, accessToken });
       }
     );
+  }
+  // ---------------getProduct-----------
+  async getProduct(req, res) {
+    
+      let filter = {};
+      if (req.query.categories) {
+        filter = { category: req.query.categories.split(",") };
+      }
+
+      const productList = await this.Products.find(filter).populate("category");
+
+      if (!productList) {
+        return this.response({
+          res,
+          data: { success: false },
+          code: 500,
+          message: error.message,
+        });
+      }
+
+      return this.response({
+        res,
+        data: productList,
+      });
+   
+  }
+  // --------------------findByIdProduct-------------------------
+
+  async findByIdProduct(req, res) {
+    try {
+      const product = await this.Products.findById(req.params.id).populate(
+        "category"
+      );
+
+      if (!product) {
+        return this.response({
+          res,
+          data: { success: false },
+          code: 500,
+          message: error.message,
+        });
+      }
+      return this.response({
+        res,
+        data: { success: true, product },
+        message: `product id : ${req.params.id} is finded `,
+      });
+    } catch (error) {
+      return this.response({
+        res,
+        data: { success: false },
+        code: 500,
+        message: error.message,
+      });
+    }
+  }
+
+  // ------------queryProduct------------
+  queryProduct = async (req, res) => {
+    try {
+      const language = req.query.language;
+      let products = {};
+      switch (language) {
+        case "eng":
+          products = await this.Products.find({
+            nameEng: { $regex: req.query.name },
+          })
+            .limit(10)
+            .sort({ name: 1 });
+
+          break;
+        case "grm":
+          products = await this.Products.find({
+            nameGrm: { $regex: req.query.name },
+          })
+            .limit(10)
+            .sort({ name: 1 });
+          break;
+        default:
+          products = await this.Products.find({
+            name: { $regex: req.query.name },
+          })
+            .limit(10)
+            .sort({ name: 1 });
+          break;
+      }
+      if (!products || products.length === 0) {
+        return this.response({
+          res,
+          data: { success: false },
+          code: 400,
+          message: `there is no products by this queryName `,
+        });
+      }
+
+      res.json({
+        data: { success: true, products },
+        message: "ok recived",
+      });
+    } catch (error) {
+      return this.response({
+        res,
+        data: { success: false },
+        code: 500,
+        message: error.message,
+      });
+    }
+  };
+  //get categoryList-------------------
+
+  async categoryList(req, res) {
+    try {
+      const categoryList = await this.Category.find();
+
+      if (categoryList.length === 0 || !categoryList)
+        return this.response({
+          res,
+          code: 500,
+          data: { success: false },
+          message: "there is no category",
+        });
+
+      return this.response({
+        res,
+        data: { success: true, categoryList },
+      });
+    } catch (error) {
+      return this.response({
+        res,
+        data: { success: false },
+        code: 500,
+        message: error.message,
+      });
+    }
+  }
+  // findById categoryList-------------------
+  async findByIdCategoryList(req, res) {
+    try {
+      const category = await this.Category.findById(req.params.id);
+      if (!category) {
+        return this.response({
+          res,
+          code: 400,
+          data: { success: false },
+          message: "this category not find",
+        });
+      }
+      return this.response({
+        res,
+        data: { success: true, category },
+      });
+    } catch (error) {
+      return this.response({
+        res,
+        code: 500,
+        data: { success: false },
+        message: error.message,
+      });
+    }
   }
 })();

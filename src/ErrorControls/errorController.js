@@ -1,4 +1,4 @@
-import config from "config";
+import winston from "winston";
 import AppError from "./AppError.js";
 
 const handleEntityParseFailed = () => {
@@ -16,7 +16,6 @@ const sendErrorDev = (err, res) => {
 };
 
 const sendErrorProd = (err, res) => {
-  console.log({ message: err.message, status: err.status });
   if (err.isOperational) {
     res.status(err.statusCode).json({
       status: err.status,
@@ -32,6 +31,7 @@ const sendErrorProd = (err, res) => {
 };
 
 const globalErrorHandler = (err, _req, res, _next) => {
+  winston.error(err.message, err);
   err.statusCode = err.statusCode || 500;
   err.status = err.status || "error";
   if (process.env.NODE_ENV?.trim() === "development") {

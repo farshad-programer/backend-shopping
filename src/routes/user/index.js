@@ -4,5 +4,5 @@ import controller from "./controller.js";
 
 router.get("/", controller.dashboard);
 
-router.get("/me", controller.me);
+router.post("/order", controller.order);
 export default router;

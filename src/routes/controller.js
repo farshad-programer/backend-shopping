@@ -1,20 +1,21 @@
 import autoBind from "auto-bind";
 import { validationResult } from "express-validator";
 import User from "./../models/user.js";
-import { Product ,Order} from "./../models/user.js";
 import cloudinary from "cloudinary";
+import Category from "../models/category.js";
+import Products from "../models/product.js";
+import OrderItem from "../models/order-item.js";
+import Order from "../models/order.js";
 
 export default class {
   constructor() {
     autoBind(this);
     this.User = User;
-    this.Product = Product;
-    this.Oreder=Order
-    cloudinary.config({
-      cloud_name: "dt9owuw6r",
-      api_key: "897585674715222",
-      api_secret: "9sDpkAlVdx3jw1zpsTzMiNuMiGg",
-    });
+    this.Category=Category;
+    this.Products=Products;
+    this.OrderItem=OrderItem;
+    this.Order=Order;
+   
   }
 
   validationBody(req, res) {
@@ -38,7 +39,8 @@ export default class {
     }
     next();
   }
-
+  
+  
   response({ res, message, code = 200, data = {} }) {
     res.status(code).json({
       message,

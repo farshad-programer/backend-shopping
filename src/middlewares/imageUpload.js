@@ -2,15 +2,13 @@ import fs from "fs";
 
 const imageUpload = async (req, res, next) => {
   try {
-   
     if (!req.files || Object.values(req.files).flat().length === 0) {
       return res.status(400).json({ message: "No files selected" });
     }
     let files = Object.values(req.files).flat();
-    
+
     const fileTypes = ["jpeg", "png", "gif", "webp"];
     files.forEach((file) => {
-      console.log(file.tempFilePath);
       if (!fileTypes.includes(file.mimetype.split("/")[1])) {
         removeTemp(file.tempFilePath);
         throw new Error("Unsupported format");
