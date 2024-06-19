@@ -15,7 +15,19 @@ export default new (class extends controller {
     }
     // const {email, name, password} = req.body;
     // user = new this.User({email, name, password});
-    user = new this.User(_.pick(req.body, ["name", "email", "password"]));
+    user = new this.User(
+      _.pick(req.body, [
+        "name",
+        "email",
+        "password",
+        "street",
+        "city",
+        "zip",
+        "country",
+        "phon",
+        "lName",
+      ])
+    );
 
     user.password = await bcrypt.hash(user.password, 15);
 
@@ -24,7 +36,17 @@ export default new (class extends controller {
     return this.response({
       res,
       message: "the user successfuly registered",
-      data: _.pick(user, ["_id", "name", "email"]),
+      data: _.pick(user, [
+        "_id",
+        "name",
+        "email",
+        "street",
+        "city",
+        "zip",
+        "country",
+        "phon",
+        "lName",
+      ]),
     });
   }
 
@@ -47,22 +69,22 @@ export default new (class extends controller {
         message: "invalid eamil aa or password",
       });
     }
-    const roles = Object.values(user.roles).filter(Boolean);
 
     const accessToken = jwt.sign(
       {
-        userInfo: { email: user.email, roles },
+        UserInfo: {
+          email: user.email,
+          roles: user.roles,
+        },
       },
       process.env.ACCESS_TOKEN_SECRET,
-      { expiresIn: "6s" }
+      { expiresIn: "15m" }
     );
 
     const newRefreshToken = jwt.sign(
-      {
-        email: user.email,
-      },
+      { email: user.email },
       process.env.REFRESH_TOKEN_SECRET,
-      { expiresIn: "1d" }
+      { expiresIn: "7d" }
     );
     // -----------------------------------------
     let newRefreshTokenArray = !cookies?.jwt
@@ -76,28 +98,25 @@ export default new (class extends controller {
         newRefreshTokenArray = [];
       }
 
-      res.clearCookie("jwt", {
+      await res.clearCookie("jwt", {
         httpOnly: true,
         sameSite: "None",
         secure: true,
       });
     }
 
-    user.refreshToken = [...newRefreshTokenArray, newRefreshToken];
+    user.refreshToken = await [...newRefreshTokenArray, newRefreshToken];
     await user.save();
 
-    res.cookie("jwt", newRefreshToken, {
-      httpOnly: true,
-      secure: true,
-      sameSite: "None",
-      maxAge: 1000 * 60 * 60 * 24,
-    });
-    const data = res.json({ roles, accessToken });
+    return res
+      .cookie("jwt", newRefreshToken, {
+        httpOnly: true,
+        secure: true,
+        sameSite: "None",
+        maxAge: 1000 * 60 * 60 * 24,
+      })
+      .json({ accessToken, message: "successfuly logged in" });
     // ---------------------------------------------
-    return this.response({
-      data,
-      message: "successfuly logged in",
-    });
 
     // const token = jwt.sign({ _id: user.id }, config.get("jwt_key"));
   }
@@ -162,7 +181,7 @@ export default new (class extends controller {
     const newRefreshTokenArray = foundUser.refreshToken.filter(
       (rt) => rt !== refreshToken
     );
-    console.log("newRefreshTokenArray :", newRefreshTokenArray);
+
     jwt.verify(
       refreshToken,
       process.env.REFRESH_TOKEN_SECRET,
@@ -174,20 +193,19 @@ export default new (class extends controller {
 
         if (err || foundUser.email !== decoded.email)
           return res.sendStatus(403);
-        const roles = Object.values(foundUser.roles);
 
         const accessToken = jwt.sign(
           {
-            userInfo: { email: decoded.email, roles },
+            userInfo: { email: decoded.email, roles: decoded.roles },
           },
           process.env.ACCESS_TOKEN_SECRET,
-          { expiresIn: "6s" }
+          { expiresIn: "15m" }
         );
 
         const newRefreshToken = jwt.sign(
           { email: foundUser.email },
           process.env.REFRESH_TOKEN_SECRET,
-          { expiresIn: "1d" }
+          { expiresIn: "7d" }
         );
 
         foundUser.refreshToken = [...newRefreshTokenArray, newRefreshToken];
@@ -200,34 +218,29 @@ export default new (class extends controller {
           maxAge: 24 * 60 * 60 * 1000,
         });
 
-        res.json({ roles, accessToken });
+        return res.json({ accessToken });
       }
     );
   }
   // ---------------getProduct-----------
   async getProduct(req, res) {
-    
-      let filter = {};
-      if (req.query.categories) {
-        filter = { category: req.query.categories.split(",") };
-      }
+    let filter = {};
+    if (req.query.categories) {
+      filter = { category: req.query.categories.split(",") };
+    }
 
-      const productList = await this.Products.find(filter).populate("category");
+    const productList = await this.Products.find(filter).populate("category");
 
-      if (!productList) {
-        return this.response({
-          res,
-          data: { success: false },
-          code: 500,
-          message: error.message,
-        });
-      }
-
+    if (!productList) {
       return this.response({
         res,
-        data: productList,
+        data: { success: false },
+        code: 500,
+        message: error.message,
       });
-   
+    }
+
+    return res.json(productList);
   }
   // --------------------findByIdProduct-------------------------
 
@@ -264,43 +277,54 @@ export default new (class extends controller {
   queryProduct = async (req, res) => {
     try {
       const language = req.query.language;
+      const queryName = req.query.name;
       let products = {};
+
+      if (!queryName) {
+        return this.response({
+          res,
+          data: { success: false },
+          code: 400,
+          message: "Query name is required",
+        });
+      }
+
       switch (language) {
-        case "eng":
+        case "fa":
           products = await this.Products.find({
-            nameEng: { $regex: req.query.name },
+            name: { $elemMatch: { lang: "fa", value: { $regex: queryName, $options: "i" } } },
           })
             .limit(10)
-            .sort({ name: 1 });
-
+            .sort({ "name.value": 1 });
           break;
         case "grm":
           products = await this.Products.find({
-            nameGrm: { $regex: req.query.name },
+            name: { $elemMatch: { lang: "grm", value: { $regex: queryName, $options: "i" } } },
           })
             .limit(10)
-            .sort({ name: 1 });
+            .sort({ "name.value": 1 });
           break;
         default:
           products = await this.Products.find({
-            name: { $regex: req.query.name },
+            name: { $elemMatch: {lang: "eng", value: { $regex: queryName, $options: "i" } } },
           })
             .limit(10)
-            .sort({ name: 1 });
+            .sort({ "name.value": 1 });
           break;
       }
+
       if (!products || products.length === 0) {
         return this.response({
           res,
           data: { success: false },
           code: 400,
-          message: `there is no products by this queryName `,
+          message: "There are no products by this query name",
         });
       }
 
-      res.json({
+      return res.json({
         data: { success: true, products },
-        message: "ok recived",
+        message: "Ok, received",
       });
     } catch (error) {
       return this.response({
@@ -311,6 +335,7 @@ export default new (class extends controller {
       });
     }
   };
+
   //get categoryList-------------------
 
   async categoryList(req, res) {
@@ -325,10 +350,7 @@ export default new (class extends controller {
           message: "there is no category",
         });
 
-      return this.response({
-        res,
-        data: { success: true, categoryList },
-      });
+      return res.json(categoryList);
     } catch (error) {
       return this.response({
         res,
@@ -339,20 +361,22 @@ export default new (class extends controller {
     }
   }
   // findById categoryList-------------------
-  async findByIdCategoryList(req, res) {
+  async findProductsByIdCategory(req, res) {
     try {
-      const category = await this.Category.findById(req.params.id);
-      if (!category) {
+      const categoryId = req.params.id;
+      const products = await this.Products.find({ category: categoryId });
+
+      if (!products) {
         return this.response({
           res,
           code: 400,
           data: { success: false },
-          message: "this category not find",
+          message: "this products not find",
         });
       }
       return this.response({
         res,
-        data: { success: true, category },
+        data: { success: true, data: products },
       });
     } catch (error) {
       return this.response({

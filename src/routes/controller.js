@@ -11,11 +11,10 @@ export default class {
   constructor() {
     autoBind(this);
     this.User = User;
-    this.Category=Category;
-    this.Products=Products;
-    this.OrderItem=OrderItem;
-    this.Order=Order;
-   
+    this.Category = Category;
+    this.Products = Products;
+    this.OrderItem = OrderItem;
+    this.Order = Order;
   }
 
   validationBody(req, res) {
@@ -39,8 +38,7 @@ export default class {
     }
     next();
   }
-  
-  
+
   response({ res, message, code = 200, data = {} }) {
     res.status(code).json({
       message,

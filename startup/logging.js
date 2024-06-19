@@ -10,7 +10,7 @@ export default function () {
       const errorMessage = stack.split("\n")[0];
       const dateTime = format(new Date(), "yyyyMMdd\tHH:mm:ss");
 
-      return `${errorMessage}\t${errorLine}\t${dateTime}\t${uuid()}`;
+      return `${errorMessage}\t${errorLine}\t${dateTime}\t${uuid()}\n${stack}`;
     })
   );
 

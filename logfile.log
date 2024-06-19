@@ -1,1 +1,432 @@
 SyntaxError: Unexpected token a in JSON at position 7	    at JSON.parse (<anonymous>)	20240326	02:37:51	45e835f1-2f81-4d17-ba6d-6c6810221321
+Error: Can't find /products on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240413	10:11:22	adb8b09a-17ca-4927-aaa9-81d7bd67d9b0
+Error: Can't find /products on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240413	10:12:00	ab3872cf-0f70-4ae7-8bcd-c85c1df0f72b
+Error: Can't find /products on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240413	10:12:02	96f8af49-83f1-4976-9a61-dbad1b16e20d
+Error: Can't find /products on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240413	10:12:05	b9447b7a-086e-4aea-bc6b-6c352fc48a23
+Error: Can't find /auth/product on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240413	10:12:08	2ffdc580-4116-4fdc-8110-e2ad084f26d3
+Error: Can't find /auth/product on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240413	10:13:01	b8e0d663-2657-4342-bb86-24360acaf254
+Error: Can't find /auth/product on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240413	10:14:37	693898e4-71d2-4ae9-b10c-71e00f93e970
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240413	10:47:49	a188e48e-cd97-401b-9efc-1ae793b63868
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:19:04	0b135885-2560-4e4d-9bdf-ca70e080a13a
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:19:09	868f4560-680f-41ae-bd57-0c7c09994c23
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:20:09	8361ba30-1f15-4372-8a20-56ececd16f49
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:21:35	ca441457-1dbf-4a09-a525-f7c7bdf182f1
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:21:50	a725cb2f-a3f0-4fab-b37a-daa6ed9439f5
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:22:51	ca5b3a69-44d8-427f-9629-090c6d102959
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:23:52	556409df-b3b9-4a34-b88f-808ee3d35daf
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:24:53	bbc9a6d2-3e1f-4cff-80de-d47b63b7e68d
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:25:54	6fcae983-3729-4de5-8220-0d104c115f50
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:26:55	22668b85-8f89-4a1a-beb8-0d3f51eb4301
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:27:56	ae9cf8d1-61fd-4680-b34d-87219ff5d0fe
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:28:57	d49f84a9-79ab-4950-b708-95d6291a6c25
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:29:58	c20ab9db-0d83-455b-83c8-b8105595deff
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:30:59	2295ee9f-2ac6-4910-a764-56a2e5120703
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:32:00	04c4aa44-dc7f-4aa3-8dfd-5450eb97c04d
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:33:01	d956712a-43ba-49f2-9b90-0e401517163d
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:34:02	a5b72f13-9c9e-4d69-b87c-a3017b414130
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:35:03	92b0dbc2-424b-43a8-ade0-e3c06692ffa8
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:36:04	25ed642a-871a-4509-b2f9-422dabb0d56b
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:37:05	bfbc4406-985f-4d17-82bf-7ece0153592f
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:38:06	7c3528e5-94e1-42cc-999d-f02ddaab5f8e
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:39:07	69e8fc77-22e3-4882-8713-e3c38e816463
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:40:08	05219123-dd97-4862-8321-29f06f49b71a
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:41:09	ec0605cd-721b-48b8-842f-ec92321dfb85
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:42:10	2980ba34-7068-4bfc-bc96-235a59cc59ea
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:43:11	419234ea-39a5-4b29-b06f-3ee936090e14
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:44:12	725cea3d-5558-478a-b733-5ea414435da6
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:45:13	142ab939-4e4a-4234-a50e-9f6718aeff09
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:46:14	9aa7895b-003e-451a-8015-daaff5804157
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:47:15	01fb967f-0930-4ca4-b67f-e07687ee31fb
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:48:16	52d2ee42-f444-443d-b84d-0f335af5bfc1
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:49:17	b22e1807-8bca-407e-ab66-449686832951
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:50:18	78352818-5222-48f6-a02b-3a8d8fcfdc22
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:51:19	821c3e60-a7e6-4d80-896b-91731656e918
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:52:20	4e445608-410e-411f-8d71-b67c1b344902
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:53:21	aca1577c-4962-4619-96ae-509741066396
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:54:22	8f219f53-4593-475b-bc52-f7cf987eed20
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	05:55:23	a601e12e-a02a-4923-8a05-748cbe0927ba
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:35:41	550ea9c8-41b0-4436-b826-b16d719d5ba8
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:36:42	cd339b0c-84b0-48f3-9703-b7ca008b77ca
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:37:43	c42a621a-3fef-48bc-b201-9cdac31ddf11
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:08	3189b231-3d4e-47a4-a6a4-c5d15400e8d8
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:12	6d928f9b-f4c4-45b2-9a50-7b5c39585575
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:35	2382e322-22ea-4055-b83d-9e175f028dcd
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:36	5b87433c-223e-43e3-b8de-2b2158226138
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:36	88ddc2a1-2173-4194-86d4-4cebf9fdf30a
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:36	25dfab67-0fa4-4181-a3c7-e156540f1364
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:36	0f9c3e97-2877-4e9d-b8d7-7013309f8898
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:36	c8cd12dc-e4f4-4e4a-8c80-ff515db42555
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:36	0525c7aa-0b49-4971-a86a-878b0c767c2d
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:36	672af7b5-678a-4055-a28b-277bd337c93a
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:36	15f7c299-3226-4e3f-8ad9-af1cc8cffbb5
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:36	fee30721-5865-47eb-8ccb-621a5d18da19
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:36	6aae7d7e-c772-4a39-8dea-31d1aa3afbcb
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:36	2c3e547e-ffe8-43f0-902d-dfb065be23ac
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:36	98297317-ac64-4f75-9e94-1aab8d5f1668
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:36	49fb6c29-808d-4e8f-b461-00772cee658a
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:36	bdafbc66-67f8-455d-bb5b-4ecc35a2757d
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:37	01c6a569-264a-4fa9-8e9b-d44b4847064d
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:37	7789324c-3947-45b9-90e3-3728e001330f
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:37	9efa8f2a-90c2-41f2-926e-1e31f5dfd827
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:37	fea317ca-ad85-4469-a4f1-450a22fba0d0
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:37	cbf39743-7fa3-4489-9c16-94dca075b99a
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:37	ed46d4b7-50c6-4f03-9a27-851b8e02347b
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:37	f1823f7d-5267-4da1-8d1c-9971108f2d6a
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:37	7dab1d03-a294-4528-bb69-65b2dc2d901a
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:37	81d72d05-3de5-420a-b3b4-1d24bdab97b5
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:37	523f5edd-1d77-4601-be1f-71bdc27992f8
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:37	14e2e4f4-8866-417a-ad1a-84e93d5de6ee
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:37	3a563fa9-eaf6-444c-ae69-44b42786cc96
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:38	08fe904a-6154-4d38-98f4-f428f0985ab5
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:39	9ba32491-c361-41bd-8a24-c461ab769996
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:40	5f6bdf7e-26e4-4b58-a579-ad114c7e7c6c
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:41	26825220-1c06-47d6-8f8b-fac50418d17d
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:38:42	cf4fee5c-6309-46ae-bab0-1b1f76137173
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:39:42	46e6ec1b-b440-4ae5-88a9-cf55cfed6d77
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:40:19	5409343f-12f4-4670-a4ef-497079e16025
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:41:20	7eda75c9-9ed7-4aa9-83d4-501a04774031
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:42:20	d3a116f3-659f-47a4-baf9-119acb7d4e90
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:42:54	6d2f7bdf-4bca-4e83-b461-057da3d9b010
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:42:58	8ba6e536-cc01-4e88-b91f-58d7cd7b23c4
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:43:03	57122f26-7f6b-4155-b983-15098013298c
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:43:28	49170a4a-3052-44d3-a583-342cf408cc64
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:43:35	700eec57-865f-488b-977d-a9a57b105bec
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:43:38	282b2edb-c045-40a9-b472-69c08aee76f7
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:43:41	6d3f1c72-54bb-4e66-b982-4f7fb3050657
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:43:58	d3f79468-356e-4a3d-bd36-5eadf5dbd664
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:44:06	a73f0c2d-c52b-437e-badd-659b95b7705e
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:44:07	2c2c0b90-26f3-4eed-8df1-067b18ead1a2
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:44:09	b9fa2c5b-8aaa-45d1-b387-fb93d0f7c9d5
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:44:15	cfbd79a6-8be1-469f-9962-238d1568ee8f
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:44:24	9d787e76-da58-4427-8650-117e747cd1f2
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:44:51	d1f829c3-0f2c-4955-9b6a-87a33aee9391
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:45:51	5ac01f17-d7a0-4267-9b22-8f006a54cdf8
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:46:12	1077ce43-4582-4065-9f02-58f35fdb46ab
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:46:13	759c2062-bc70-41b3-b68e-8f588c08a8cc
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:46:18	3c76a616-04c8-4f1e-b74e-e20f5064d5c4
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:46:20	6596f160-2ae5-4df1-8e0e-f0df906ebd24
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:47:21	234e23df-fc54-4ca0-8445-6095e994d8e6
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:48:22	982abcca-e47a-430a-bd6b-f71a698d3d29
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:49:23	cd6ca760-6e99-4fcc-85fd-76f6211375b0
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:50:24	9b25fd7b-d3b0-4102-9da8-90287e0f6778
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:51:25	913936ea-b0a6-4885-b808-053b098f79dc
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:52:26	57ab156b-49ad-44d0-94b6-c5ff09826596
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:53:27	9308e0dc-0a1b-4f21-81fb-d05ffc417ced
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:54:28	52689fb8-9081-4825-804f-a77232922c64
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:55:31	41fc9670-724c-4bbc-84fd-d62c0f17aa2f
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:55:54	c03e641a-b103-4c05-af85-737613c2c4f7
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:56:55	4437dc6b-8ba0-46d2-8305-b856054e3aa7
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:57:56	b80ef0ef-3073-46aa-b4a3-b8c1b03582bf
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:59:01	a2b81adc-cba6-40ce-9bb7-fa96442dd846
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	06:59:11	3a7a33b2-331a-4d7b-bc31-34361625870b
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	07:00:12	dc1e31aa-1f76-4e53-aa84-082c3768363f
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	07:01:13	448662bd-ed3c-439c-994d-cc8dda96cc8f
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	07:02:14	f233438f-6885-42e8-8abd-dfaf38498c34
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	07:03:15	d2225f1d-755d-4132-8ae4-f62efab9ed22
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	07:04:16	119ee6d1-ca9f-45b2-bf9b-18c6f688707c
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	07:05:17	f867e8b6-91b6-4fcb-8da5-b8425015495b
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	07:05:21	ba60747b-2ff9-4c5e-b518-7ec759247ea5
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	07:06:22	f1bfa07a-78cb-427f-99ac-863d19d0364e
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	07:07:22	e0a68dfa-d135-4d57-99b3-008134390eb4
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	07:07:26	610c8e3b-7298-4d34-bf87-7d6275d5ef93
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	07:25:49	0da78a9d-7397-4a63-835f-c30f19edcc72
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	09:07:41	daf532ab-49a0-426c-a2dc-03c6adcde74c
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	09:07:46	11f9a6ea-c520-4bca-9178-8875f93b7aca
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240414	09:07:46	58c82ade-756d-4fe8-83fa-18a85bdb2683
+Error: Can't find /2023-02-11T13-18-06.816Zlaura-college-K_Na5gCmh38-unsplash.jpg-1698606380796.jpeg on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240415	10:36:23	68e05984-39fe-4d27-8725-3be52beeea32
+Error: Can't find /api/auth/category/653e60c8213003e6e562ddfb/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:39:17	03dfdabd-a963-4efe-a990-48bb994db837
+Error: Can't find /api/auth/category/653e708464f7e9223464f290/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:39:18	10d9fe2d-2421-4811-9680-26b0db7f3cea
+Error: Can't find /api/auth/category/654d3855d4752ec213c641ee/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:39:20	8aa521bb-9112-46e8-9add-c529906f5ff8
+Error: Can't find /api/auth/category/654d3855d4752ec213c641ee/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:39:33	de30ea3e-db7f-47a2-93e3-db4ba540ae35
+Error: Can't find /api/auth/category/653e708464f7e9223464f290/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:39:35	a63bc1a3-f964-4a72-9762-bb2f21030add
+Error: Can't find /api/auth/category/653e60c8213003e6e562ddfb/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:39:36	5176e6e1-a03e-48e7-8f6b-5ce0da2c3723
+Error: Can't find /api/auth/category/653e60c8213003e6e562ddfb/data/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:40:29	5b6b55a1-dcb1-410a-a0e6-9041dc3f6ea3
+Error: Can't find /api/auth/category/653e708464f7e9223464f290/data/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:40:31	ab20ff50-6c27-4f49-9bb2-f31dd19c75ec
+Error: Can't find /api/auth/category/654d3855d4752ec213c641ee/data/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:40:32	2171fa6e-5454-43ed-8d00-68ecd86d2c9b
+Error: Can't find /api/auth/category/654d385ed4752ec213c641f1/data/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:40:34	3f5427d4-20c7-4405-aa07-11c64ad99984
+Error: Can't find /api/auth/category/653e60c8213003e6e562ddfb/data/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:41:28	7cf11667-1f0a-4591-ab54-89f62a1299d6
+Error: Can't find /api/auth/category/653e708464f7e9223464f290/data/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:41:31	fee9270c-0b1d-4a5f-bc63-8d4b213dfc46
+Error: Can't find /api/auth/category/653e60c8213003e6e562ddfb/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:42:15	39450f98-3bf7-4df1-a6a0-aa7835bf56fc
+Error: Can't find /api/auth/category/653e708464f7e9223464f290/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:42:20	5a402b3c-2621-42ba-97ac-0dc6ecad9378
+Error: Can't find /api/auth/category/654d3855d4752ec213c641ee/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:42:21	ebe18e51-25fc-4d50-87c4-0bb6f66fd067
+Error: Can't find /api/auth/category/654d385ed4752ec213c641f1/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:42:23	29581f30-94a2-493f-a5ed-a167f8d157c5
+Error: Can't find /api/auth/category/654d3864d4752ec213c641f4/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:42:29	c80eaaa8-61e0-4011-bca8-a4367ac15cdf
+Error: Can't find /api/auth/category/653e708464f7e9223464f290/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:44:00	1174f4dc-4197-4fbc-86c7-970bf9cb5bc5
+Error: Can't find /api/auth/category/653e60c8213003e6e562ddfb/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:45:09	a1425d32-1c82-4525-b2bf-781ec222dccf
+Error: Can't find /api/auth/category/654d3855d4752ec213c641ee/data on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240419	04:45:13	87696eed-a3b0-465d-83d9-cb4db22725ee
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240423	13:03:59	758356dd-9c40-46d9-9a4d-b68b82524742
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240423	13:05:08	91a4c1f5-9926-4b01-a797-9f9eb88ac4f4
+Error: Can't find /auth/category on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240423	13:20:25	e44625bc-28e6-42eb-8431-164b25190658
+Error: Can't find /auth/product on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240423	13:20:25	688fa89a-8124-408c-b9e1-5d43d2e94aeb
+Error: Can't find /auth/category on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240423	13:20:25	869f40f5-f49a-45eb-bcf6-da9cff3b5f74
+Error: Can't find /auth/product on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240423	13:20:25	2f2b8583-6840-43d2-9e91-a853e5d5cd40
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:29:28	be237762-13e0-440b-8631-207e21af3fe8
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:30:30	36f8cb7a-2201-4273-86e7-b5388c12a75c
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:31:30	d815bd15-c9bf-4fde-8fb2-a30e2baeeb66
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:32:31	00f09704-93fa-4ca7-b702-5f0b40b4647c
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:33:32	fd343bc5-297f-49d0-8c21-002b0b59a5d1
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:34:33	406c29b3-21b0-4b57-972b-86a14adc2492
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:35:34	b441aa2d-c556-4f36-8ff7-89c936334602
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:36:35	8fa6302c-5b20-4c87-914c-5821e71cdc2d
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:37:36	53d618e2-cbd2-4700-a498-31809c976a22
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:38:37	5c36d8e8-245d-4d5f-90d2-362813bbaccd
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:39:38	ccdf69d7-4569-4832-8ea3-c6b449d3b36e
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:40:39	510c04ce-7c79-4d68-a22f-531ba93ff304
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:41:40	ec2e4a5e-d5ca-4567-82db-8c5dd8c7b06a
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:42:41	6879c9a6-92df-45fb-ac39-37745d5dc8ca
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:43:42	b7f9ba55-43a9-4ebc-b78f-46213f16f147
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:44:43	a4157a70-f947-4454-8dc8-fec5f28c87dd
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:45:44	532308af-5a06-4649-8368-ad3d8281c15a
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:46:45	53500198-c09d-4bb8-88b1-42a6fc513556
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:47:46	b19ff0df-bffd-4c6c-9550-9aa61d0dad9f
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:48:47	18d2826f-256e-4df6-8018-b3df08e1194d
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:49:48	fc995ae6-3611-47ac-93be-a12c85233436
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:50:49	c2222366-59e7-40a8-a708-0fa2429a3b58
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:51:50	9910deed-f93e-4b2c-a9ba-ba1ae8dd249e
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:52:51	6c297107-d256-46fc-9477-c83cc191c5db
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:53:52	7612bd76-6b46-4d39-8490-9454bf817c6b
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:54:53	b1655116-c492-4da7-b08e-36d8d012866e
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:55:54	10967da4-9a46-4059-80d2-af2e0d466c64
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:56:55	2b977234-94e3-409e-bb8c-a262095748ad
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:57:56	13296712-e969-49e0-b819-361956f3e83a
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:58:57	415411dd-ba68-4594-b42c-2d0bfbf14968
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	06:59:58	06f10bc1-ffae-4d96-8d2f-ecccbfde55ae
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	07:00:45	00f9a0f2-1546-4a70-9a45-79db9a8f6e45
+Error: Can't find /api/admin/ on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240424	07:00:55	8ec4af46-5b62-492d-a623-d6a93a557ea0
+Error: Not allowed by cors	    at origin (file:///D:/shop/New%20folder/Shopsimulation/config/corsOptions.js:12:18)	20240428	02:08:21	b4f318d1-83ac-4a90-8367-c95d077694e6
+Error: Can't find /api/api/auth/register on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240504	04:01:18	f69f9822-f468-44e7-8a9d-53639724711b
+Error: Can't find /api/api/auth/register on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240504	04:01:32	f7af73f8-137b-4b22-b9ed-7b617fad198b
+Error: Can't find /api/api/auth/register on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240504	04:03:14	92daff2f-d88b-483d-b7bc-f99fe728caaa
+Error: Can't find /api/api/auth/register on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240504	04:05:17	3a4ab022-9671-47f7-a61d-e841ef61a94f
+Error: Can't find /api/api/auth/register on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240504	04:05:30	424d1372-65fd-4c3f-8318-0715e775be3a
+Error: Can't find /api/api/auth/register on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240504	08:27:26	fa4fcfb4-2179-444a-b5ca-75ddb00dbd0e
+Error: Can't find /api/api/auth/register on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240504	08:27:28	e46a8ae5-ee77-4ac3-9daa-a6a109bcc294
+Error: Can't find /api/api/auth/register on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240504	08:28:21	a2d31405-661d-4004-aa36-b7d55ec48e36
+Error: Can't find /api/api/auth/register on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240504	08:28:27	7b38f446-461f-4ca4-9a50-95d3d7b216bd
+Error: Can't find /api/api/auth/register on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240504	08:29:04	608cb1df-fa09-4544-9334-0bf4f283f243
+TypeError: Cannot convert undefined or null to object	    at Function.values (<anonymous>)	20240505	10:56:08	03b5d7c0-64dd-41eb-b2cd-f69d86a431de
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240505	11:47:36	57c38370-edcf-43ed-9869-9291a786f9f1
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240505	11:47:50	c608f250-7552-4870-9ab3-cf4808ab053d
+TypeError: Cannot convert undefined or null to object	    at Function.values (<anonymous>)	20240506	04:15:36	3ba31f47-0b45-4391-b828-1e0a86d6274b
+TypeError: Cannot convert undefined or null to object	    at Function.values (<anonymous>)	20240506	04:16:35	c219a32c-9fb9-4b9c-bb35-28fe4686990d
+TypeError: Cannot convert undefined or null to object	    at Function.values (<anonymous>)	20240506	04:18:03	751c608e-a78c-407e-936b-c6f8dc296fcc
+TypeError: Cannot convert undefined or null to object	    at Function.values (<anonymous>)	20240506	04:18:07	92acac86-6a48-4704-b8c7-44cd901606cf
+TypeError: Cannot convert undefined or null to object	    at Function.values (<anonymous>)	20240506	04:19:19	4b9464a9-b169-4c2e-8e90-35ab80088529
+TypeError: Cannot convert undefined or null to object	    at Function.values (<anonymous>)	20240506	04:21:00	0cfa70ab-3248-4a05-8d2f-091411852547
+TypeError: Cannot convert undefined or null to object	    at Function.values (<anonymous>)	20240506	04:25:19	a781ef07-9019-49c6-a723-1fdd01870dbf
+TypeError: Cannot convert undefined or null to object
+    at Function.values (<anonymous>)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:72:26)	    at Function.values (<anonymous>)	20240506	05:12:37	5dc91ce3-6636-469a-a616-2c0620f61674
+[object Object]	    at Function.values (<anonymous>)	20240506	05:14:05	ac51ef44-3c89-4a25-9e66-b65a5b5a0d9c
+[object Object]	    at model.Document.invalidate (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\document.js:3166:32)	20240506	05:17:26	8168b057-847b-4296-94f3-a7c6cf04d072
+[object Object]	    at model.Document.invalidate (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\document.js:3166:32)	20240506	05:17:55	ba333f5b-fba0-404d-ab47-275ef2011a2f
+ValidationError: User validation failed: roles.0: Cast to [string] failed for value "[ { User: 1000, Admin: 1001 } ]" (type string) at path "roles.0" because of "CastError", country: Path `country` is required., zip: Path `zip` is required., lName: Path `lName` is required., city: Path `city` is required., phon: Path `phon` is required., street: Path `street` is required.
+    at model.Document.invalidate (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\document.js:3166:32)
+    at _init (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\document.js:789:18)
+    at init (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\document.js:736:5)
+    at model.Document.$__init (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\document.js:692:3)
+    at model.syncWrapper [as $__init] (D:\shop\New folder\Shopsimulation\node_modules\kareem\index.js:331:25)
+    at model.Document.init (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\document.js:636:8)
+    at model.Document.$init (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\document.js:652:42)
+    at Object.createModelAndInit (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\queryhelpers.js:138:12)
+    at completeOne (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\query.js:3128:11)
+    at model.Query.Query._completeOne (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\query.js:2487:7)	    at model.Document.invalidate (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\document.js:3166:32)	20240506	05:19:00	309a5688-9484-4555-88c5-43600f6e37d7
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	05:21:38	c3c60161-8128-444f-8b4e-b12f9ce448bf
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	05:21:55	947747cf-1914-4f38-be8d-f6c26a25e498
+ValidationError: User validation failed: roles.0: Cast to [string] failed for value "[ { User: 1000, Admin: 1001 } ]" (type string) at path "roles.0" because of "CastError", country: Path `country` is required., zip: Path `zip` is required., lName: Path `lName` is required., city: Path `city` is required., phon: Path `phon` is required., street: Path `street` is required.	    at model.Document.invalidate (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\document.js:3166:32)	20240506	05:25:30	f1072a67-041a-4a98-aa91-d5825be9ae0c
+ValidationError: User validation failed: roles.0: Cast to [string] failed for value "[ { User: 1000, Admin: 1001 } ]" (type string) at path "roles.0" because of "CastError", country: Path `country` is required., zip: Path `zip` is required., lName: Path `lName` is required., city: Path `city` is required., phon: Path `phon` is required., street: Path `street` is required.
+    at model.Document.invalidate (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\document.js:3166:32)
+    at _init (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\document.js:789:18)
+    at init (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\document.js:736:5)
+    at model.Document.$__init (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\document.js:692:3)
+    at model.syncWrapper [as $__init] (D:\shop\New folder\Shopsimulation\node_modules\kareem\index.js:331:25)
+    at model.Document.init (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\document.js:636:8)
+    at model.Document.$init (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\document.js:652:42)
+    at Object.createModelAndInit (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\queryhelpers.js:138:12)
+    at completeOne (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\query.js:3128:11)
+    at model.Query.Query._completeOne (D:\shop\New folder\Shopsimulation\node_modules\mongoose\lib\query.js:2487:7)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	06:39:38	30fc570c-4015-4b13-9345-d3cbadd1c611
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	06:41:01	fadeea1f-49a8-4526-8aed-a9dc523eaafb
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	06:42:21	079ae798-d2f9-450e-874a-eb743a676c99
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	06:44:13	073c744c-4bd7-40d5-89e6-ccb398b79f43
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	06:45:45	b962c20d-60e2-42c1-9529-00dbbbff2982
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	06:48:00	5e2b3283-60ff-47ad-ba61-78e212fbea33
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	06:49:33	7c9cd243-bb3f-4c20-a1d1-8d540bc212c0
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	06:50:11	89cdf67c-794a-4af5-8658-f9f66591ce77
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	06:51:21	bef78961-b833-4634-a2ca-d1eaa13cf231
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	06:57:24	05bc6f68-07fb-42f2-b64e-d2bf31f5cf5c
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	07:00:19	4899a431-4d9d-4905-b06e-b913da6c1c7b
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	07:28:07	a85d5279-9241-4e4f-b9d3-5cda767d1f2a
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	07:29:50	4a210347-67d8-4137-8f6a-35cb0386c21b
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	07:30:18	b4e3c078-c44a-4330-a607-79d210ec63ed
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	07:31:48	2fdc576f-8b87-46a9-a232-acbf8e700fd8
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	07:33:02	c1f92bb0-39c7-4725-b33c-ccda3a08da1d
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	07:36:23	102d0be2-535b-4f4d-a1c9-466ac43bcd4e
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	07:38:11	1416d0ea-01ae-417a-96ee-08c5b1444de3
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	07:50:14	9d05be59-b566-4ef2-9f6b-a3efaffb6213
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	07:52:54	917f38f2-bf58-4a78-b478-a1778356eb77
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	09:04:38	bded4a65-591f-4457-92ed-ed81e74132a3
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	10:57:01	b10eb310-792d-49c3-801a-a8588d87dacc
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240506	11:20:50	53398f9f-1fc2-4923-a455-12cc034cd8e8
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)	20240507	09:38:14	37e93049-2b63-4b6d-8df2-6eddb030b905
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:45:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:43:9)	20240509	04:36:29	1ad0388c-c5c1-4777-8b92-5bef13143a2b
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:43:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:43:9)	20240509	04:48:57	3a366347-73fd-49ee-bc68-578a77ee7b46
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:43:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:119:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'status')	    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:43:9)	20240509	04:50:27	d2ae08a9-f545-47aa-b984-1f40de43c515
+TypeError: Cannot read properties of undefined (reading 'status')
+    at Object.response (file:///D:/shop/New%20folder/Shopsimulation/src/routes/controller.js:43:9)
+    at Object.login (file:///D:/shop/New%20folder/Shopsimulation/src/routes/auth/controller.js:97:17)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Can't find /favicon.ico on this server	    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8	20240510	00:30:32	37f07713-bf8c-4ec6-9e3d-ca8346f48231
+Error: Can't find /favicon.ico on this server
+    at file:///D:/shop/New%20folder/Shopsimulation/index.js:23:8
+    at newFn (D:\shop\New folder\Shopsimulation\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (D:\shop\New folder\Shopsimulation\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\shop\New folder\Shopsimulation\node_modules\express\lib\router\route.js:149:13)
+    at next (D:\shop\New folder\Shopsimulation\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\shop\New folder\Shopsimulation\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\shop\New folder\Shopsimulation\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\shop\New folder\Shopsimulation\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\shop\New folder\Shopsimulation\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\shop\New folder\Shopsimulation\node_modules\express\lib\router\route.js:145:7)
+PayloadTooLargeError: request entity too large	    at readStream (D:\shop\New folder\Shopsimulation\node_modules\raw-body\index.js:163:17)	20240528	15:16:33	2e0a9acc-35f7-4b35-b017-9b9fcb2843cc
+PayloadTooLargeError: request entity too large
+    at readStream (D:\shop\New folder\Shopsimulation\node_modules\raw-body\index.js:163:17)
+    at getRawBody (D:\shop\New folder\Shopsimulation\node_modules\raw-body\index.js:116:12)
+    at read (D:\shop\New folder\Shopsimulation\node_modules\body-parser\lib\read.js:79:3)
+    at jsonParser (D:\shop\New folder\Shopsimulation\node_modules\body-parser\lib\types\json.js:138:5)
+    at newFn (D:\shop\New folder\Shopsimulation\node_modules\express-async-errors\index.js:16:20)
+    at Layer.handle [as handle_request] (D:\shop\New folder\Shopsimulation\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\shop\New folder\Shopsimulation\node_modules\express\lib\router\index.js:328:13)
+    at D:\shop\New folder\Shopsimulation\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\shop\New folder\Shopsimulation\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\shop\New folder\Shopsimulation\node_modules\express\lib\router\index.js:280:10)

@@ -23,6 +23,6 @@ router.get("/product/:id", controller.findByIdProduct);
 router.get("/findProducts", controller.queryProduct);
 // --------------category-----------------
 router.get("/category", controller.categoryList);
-router.get("/category/:id", controller.findByIdCategoryList);
+router.get("/category/:id", controller.findProductsByIdCategory);
 
 export default router;

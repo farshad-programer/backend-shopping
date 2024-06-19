@@ -2,18 +2,12 @@ import { Schema, model } from "mongoose";
 import timestamp from "mongoose-timestamp";
 
 const productSchema = new Schema({
-  name: {
-    type: String,
-    required: true,
-  },
-  nameEng: {
-    type: String,
-    required: true,
-  },
-  nameGrm: {
-    type: String,
-    required: true,
-  },
+  name: [
+    {
+      type: Object,
+      required: true,
+    },
+  ],
   description: {
     type: String,
     required: true,
@@ -50,6 +44,7 @@ const productSchema = new Schema({
   rating: {
     type: Number,
     default: 0,
+    required: true,
   },
   numReviews: {
     type: Number,
@@ -57,6 +52,7 @@ const productSchema = new Schema({
   },
   isFeatured: {
     type: Boolean,
+    required: true,
     default: false,
   },
   dateCreated: {

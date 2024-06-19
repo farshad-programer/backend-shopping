@@ -121,152 +121,146 @@ export default new (class extends controller {
   // postCategory------------------
   async postCategoryList(req, res) {
     try {
-      const language = req.body.language;
+      const { language, name, icon, color } = req.body;
       let category = {};
+      
       switch (language) {
         case "eng":
-          category = await this.Category.findOne(
-            {
-              name: req.body.nameEng,
-            },
-            {
-              new: true,
-            }
-          ).exec();
+          category = await this.Category.findOne({
+            name: { $elemMatch: { lang: "grm ", value: name } }
+          }).exec();
           break;
         case "fa":
-          category = await this.Category.findOne(
-            {
-              name: req.body.name,
-            },
-            {
-              new: true,
-            }
-          ).exec();
+          category = await this.Category.findOne({
+            name: { $elemMatch: { lang: "fa", value: name } }
+          }).exec();
           break;
         default:
-          category = await this.Category.findOne(
-            {
-              nameGrm: req.body.nameGrm,
-            },
-            {
-              new: true,
-            }
-          ).exec();
+          category = await this.Category.findOne({
+            name: { $elemMatch: { lang: "eng", value: name } }
+          }).exec();
           break;
       }
-
+  
       if (category) {
         return this.response({
           res,
           code: 400,
           data: { success: false },
-          message: "this category already registered",
+          message: "This category is already registered"
         });
       }
-      category = await new this.Category(
-        _.pick(req.body, ["name", "nameEng", "nameGrm", "icon", "color"])
-      );
-      if (category.length === 0)
+  
+      category = new this.Category({
+        name:req.body.name,
+        icon,
+        color
+      });
+  
+      if (category.name.length === 0) {
         return this.response({
           res,
           data: { success: false },
           code: 400,
-          message: "the category does not created",
+          message: "The category was not created"
         });
+      }
+  
       category = await category.save();
-
+  
       return this.response({
         res,
-        data: { success: true, category },
+        data: { success: true, category }
       });
     } catch (error) {
       return this.response({
         res,
         data: { success: false },
         code: 500,
-        message: error.message,
+        message: error.message
       });
     }
   }
+  
   // putCategory---------------------
   async updateCategoryList(req, res) {
     try {
-      const language = req.body.language;
+      const { name, icon, color } = req.body;
       let category = {};
+  
+      const language=req.params.lang
       switch (language) {
         case "eng":
-          category = await this.Category.findOne(
-            {
-              name: req.body.nameEng,
-            },
-            {
-              new: true,
-            }
-          ).exec();
+          category = await this.Category.findOne({
+            name: { $elemMatch: { lang: "eng", value: nameEng } }
+          }).exec();
           break;
         case "fa":
-          category = await this.Category.findOne(
-            {
-              name: req.body.name,
-            },
-            {
-              new: true,
-            }
-          ).exec();
+          category = await this.Category.findOne({
+            name: { $elemMatch: { lang: "fa", value: name } }
+          }).exec();
           break;
         default:
-          category = await this.Category.findOne(
-            {
-              nameGrm: req.body.nameGrm,
-            },
-            {
-              new: true,
-            }
-          ).exec();
+          category = await this.Category.findOne({
+            name: { $elemMatch: { lang: "grm", value: nameGrm } }
+          }).exec();
           break;
       }
-
+  
       if (category) {
         return this.response({
           res,
           code: 400,
           data: { success: false },
-          message: "this category already registered",
+          message: "This category is already registered"
         });
       }
-      category = await this.Category.findByIdAndUpdate(
-        req.params.id,
-        {
-          name: req.body.name,
-          nameEng: req.body.nameEng,
-          nameGrm: req.body.nameGrm,
-          icon: req.body.icon || category.icon,
-          color: req.body.color,
-        },
-        { new: true }
-      ).exec();
+  
+     
+      category = await this.Category.findById(req.params.id).exec();
+  
       if (!category) {
         return this.response({
           res,
           data: { success: false },
           code: 400,
-          message: "the category cannot be created!",
+          message: "The category cannot be found!"
         });
       }
+  
+     
+      category.name = category.name.map(item => {
+        if (item.lang === "eng") {
+          item.value = nameEng || item.value;
+        } else if (item.lang === "fa") {
+          item.value = name || item.value;
+        } else if (item.lang === "grm") {
+          item.value = nameGrm || item.value;
+        }
+        return item;
+      });
+  
+      
+      category.icon = icon || category.icon;
+      category.color = color || category.color;
+  
+      
+      category = await category.save();
+  
       return this.response({
         res,
-        data: { success: true, category },
+        data: { success: true, category }
       });
     } catch (error) {
       return this.response({
         res,
         data: { success: false },
         code: 500,
-        message: error.message,
+        message: error.message
       });
     }
   }
+  
   // deleteCategory---------------------
   async deleteCategoryList(req, res) {
     try {
@@ -309,8 +303,6 @@ export default new (class extends controller {
       }
       let product = await new this.Products({
         name: req.body.name,
-        nameEng: req.body.nameEng,
-        nameGrm: req.body.nameGrm,
         description: req.body.description,
         richDescription: req.body.richDescription,
         images: req.body.images,
@@ -378,8 +370,6 @@ export default new (class extends controller {
         req.params.id,
         {
           name: req.body.name,
-          nameEng: req.body.nameEng,
-          nameGrm: req.body.nameGrm,
           description: req.body.description,
           richDescription: req.body.richDescription,
           image: req.body.image,
@@ -521,6 +511,7 @@ export default new (class extends controller {
             return res.status(502).json({ message: "there is no file" });
           } else {
             const files = req.files;
+            console.log(files);
             const imagesPaths = [];
             const basePath = `${req.protocol}://${req.get("host")}/`;
 
@@ -611,14 +602,16 @@ export default new (class extends controller {
     let fullPath = `./public/uploads/${pat}`;
 
     fs.unlink(fullPath, (err) => {
-      if (err) ;
+      if (err);
     });
   }
+
   // -------------------Order-------------
   async getOrder(req, res) {
     try {
       const orderList = await this.Order.find()
         .populate("user", "name")
+        .populate("orderItems")
         .sort({ createdAt: -1 });
       if (!orderList || orderList.length === 0) {
         return this.response({
@@ -740,7 +733,7 @@ export default new (class extends controller {
       let totalSales = await this.Order.aggregate([
         {
           $match: {
-            "$updatedAt": 11,
+            $updatedAt: 11,
           },
         },
         {
@@ -751,12 +744,8 @@ export default new (class extends controller {
             },
             totalsales: { $sum: "$totalPrice" },
           },
-         
         },
-        
-        
       ]);
-      
 
       if (!totalSales) {
         return this.response({
@@ -768,7 +757,7 @@ export default new (class extends controller {
       }
       return this.response({
         res,
-        data: { success: true, totalSales,},
+        data: { success: true, totalSales },
         message: "totalSales is recived",
       });
     } catch (error) {
